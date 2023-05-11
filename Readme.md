@@ -27,7 +27,7 @@ create database hiolabsDB
 运行sql脚本至hiolabsDB架构中
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ```bash
