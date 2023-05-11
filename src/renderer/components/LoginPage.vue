@@ -5,7 +5,7 @@
                 <img src="static/images/loading2.gif"/>
             </div>
             <div class="body">
-                <p class="tips">我的小店</p>
+                <p class="tips">商城管理系统</p>
                 <el-form ref="form" :model="form" :rules="rules" label-position="top">
                     <el-form-item label="" prop="username">
                         <el-input v-model="form.username" placeholder="用户名"></el-input>
@@ -108,7 +108,7 @@
 <style>
     .login {
         align-items: center;
-        background: url("https://www.qile.club/img/back.jpg"); 
+        background: url("bglo.png");
 		/* 以上为登录背景,可以自己更换成自己喜欢的 */
         background-size: 100%;
         background-repeat:no-repeat;
@@ -171,3 +171,4 @@
         text-decoration: none;
     }
 </style>
+
